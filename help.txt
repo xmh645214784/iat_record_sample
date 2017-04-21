@@ -1,0 +1,10 @@
+./iat_record_sample [udfm]
+    [-u yes/no]
+        是否上传用户词，用户词为当前目录下命名为userwords.txt的文件，由于权限问题，目前貌似没法使用
+    [-f filename]
+        从文件中进行语音识别
+    [-m]
+        指定从麦克风录音识别
+
+        [-d duration]
+            使用麦克风录音时录制的时间，秒为单位

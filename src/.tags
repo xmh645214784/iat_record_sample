@@ -1,0 +1,144 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER_SIZE	iat_record_sample.c	12;"	d	file:
+DBG_ON	linuxrec.c	19;"	d	file:
+DEFAULT_FORMAT	linuxrec.c	44;"	d	file:
+DEFAULT_FORMAT	speech_recognizer.c	30;"	d	file:
+DEFAULT_SESSION_PARA	speech_recognizer.c	27;"	d	file:
+DEF_BUFF_TIME	linuxrec.c	41;"	d	file:
+DEF_PERIOD_TIME	linuxrec.c	42;"	d	file:
+END_REASON_VAD_DETECT	speech_recognizer.h	32;"	d
+E_SR_ALREADY	speech_recognizer.h	23;"	d
+E_SR_INVAL	speech_recognizer.h	21;"	d
+E_SR_NOACTIVEDEVICE	speech_recognizer.h	19;"	d
+E_SR_NOMEM	speech_recognizer.h	20;"	d
+E_SR_RECORDFAIL	speech_recognizer.h	22;"	d
+FORMATS_H_160601_TT	formats.h	2;"	d
+FRAME_CNT	linuxrec.c	39;"	d	file:
+FRAME_LEN	iat_record_sample.c	11;"	d	file:
+RECORD_ERR_BASE	linuxrec.h	/^	RECORD_ERR_BASE = 0,$/;"	e	enum:__anon2
+RECORD_ERR_GENERAL	linuxrec.h	/^	RECORD_ERR_GENERAL,$/;"	e	enum:__anon2
+RECORD_ERR_INVAL	linuxrec.h	/^	RECORD_ERR_INVAL,$/;"	e	enum:__anon2
+RECORD_ERR_MEMFAIL	linuxrec.h	/^	RECORD_ERR_MEMFAIL,$/;"	e	enum:__anon2
+RECORD_ERR_NOT_READY	linuxrec.h	/^	RECORD_ERR_NOT_READY$/;"	e	enum:__anon2
+RECORD_STATE_CLOSING	linuxrec.c	/^	RECORD_STATE_CLOSING,$/;"	e	enum:__anon1	file:
+RECORD_STATE_CREATED	linuxrec.c	/^	RECORD_STATE_CREATED,	\/* Init		*\/$/;"	e	enum:__anon1	file:
+RECORD_STATE_READY	linuxrec.c	/^	RECORD_STATE_READY,		\/* Opened	*\/$/;"	e	enum:__anon1	file:
+RECORD_STATE_RECORDING	linuxrec.c	/^	RECORD_STATE_RECORDING,	\/* Started	*\/$/;"	e	enum:__anon1	file:
+RECORD_STATE_STOPPING	linuxrec.c	/^	RECORD_STATE_STOPPING,	\/* During Stop	*\/$/;"	e	enum:__anon1	file:
+SAMPLE_BIT_SIZE	linuxrec.c	38;"	d	file:
+SAMPLE_RATE	linuxrec.c	37;"	d	file:
+SR_DBGON	speech_recognizer.c	20;"	d	file:
+SR_MALLOC	speech_recognizer.c	48;"	d	file:
+SR_MEMSET	speech_recognizer.c	50;"	d	file:
+SR_MFREE	speech_recognizer.c	49;"	d	file:
+SR_MIC	speech_recognizer.h	/^	SR_MIC,	\/* write data from mic *\/$/;"	e	enum:sr_audsrc
+SR_STATE_INIT	speech_recognizer.c	/^	SR_STATE_INIT,$/;"	e	enum:__anon5	file:
+SR_STATE_STARTED	speech_recognizer.c	/^	SR_STATE_STARTED$/;"	e	enum:__anon5	file:
+SR_USER	speech_recognizer.h	/^	SR_USER	\/* write data from user by calling API *\/$/;"	e	enum:sr_audsrc
+Sleep	speech_recognizer.c	/^static void Sleep(size_t ms)$/;"	f	file:
+USERWORDS_FILE	iat_record_sample.c	/^const char USERWORDS_FILE[]="userwords.txt";$/;"	v
+WAVEFORMATEX	formats.h	/^} WAVEFORMATEX;$/;"	t	typeref:struct:tWAVEFORMATEX
+WAVE_FORMAT_PCM	formats.h	5;"	d
+__IFLY_WINREC_H__	linuxrec.h	21;"	d
+aud_src	speech_recognizer.h	/^	enum sr_audsrc aud_src;  \/* from mic or manual  stream write *\/$/;"	m	struct:speech_rec	typeref:enum:speech_rec::sr_audsrc
+audio_status	speech_recognizer.h	/^	int audio_status;$/;"	m	struct:speech_rec
+audiobuf	linuxrec.h	/^	char *audiobuf;$/;"	m	struct:recorder
+bits_per_frame	linuxrec.h	/^	int bits_per_frame;$/;"	m	struct:recorder
+bufcount	linuxrec.h	/^	unsigned int bufcount; $/;"	m	struct:recorder
+buffer_frames	linuxrec.h	/^	size_t buffer_frames;$/;"	m	struct:recorder
+buffer_time	linuxrec.h	/^	unsigned int buffer_time;$/;"	m	struct:recorder
+bufheader	linuxrec.h	/^	void * bufheader;$/;"	m	struct:recorder
+cbSize	formats.h	/^	unsigned short    cbSize;$/;"	m	struct:tWAVEFORMATEX
+close_recorder	linuxrec.c	/^void close_recorder(struct recorder *rec)$/;"	f
+close_recorder_internal	linuxrec.c	/^static void close_recorder_internal(struct recorder *rec)$/;"	f	file:
+create_record_thread	linuxrec.c	/^static int create_record_thread(void * para, pthread_t * tidp)$/;"	f	file:
+create_recorder	linuxrec.c	/^int create_recorder(struct recorder ** out_rec, $/;"	f
+dbg	linuxrec.c	22;"	d	file:
+dbg	linuxrec.c	24;"	d	file:
+demo_file	iat_record_sample.c	/^static void demo_file(const char* audio_file, const char* session_begin_params)$/;"	f	file:
+demo_mic	iat_record_sample.c	/^static void demo_mic(const char* session_begin_params,int record_time)$/;"	f	file:
+destroy_recorder	linuxrec.c	/^void destroy_recorder(struct recorder *rec)$/;"	f
+end_sr_on_error	speech_recognizer.c	/^static void end_sr_on_error(struct speech_rec *sr, int errcode)$/;"	f	file:
+end_sr_on_vad	speech_recognizer.c	/^static void end_sr_on_vad(struct speech_rec *sr)$/;"	f	file:
+ep_stat	speech_recognizer.h	/^	int ep_stat;$/;"	m	struct:speech_rec
+format_ms_to_alsa	linuxrec.c	/^static int format_ms_to_alsa(const WAVEFORMATEX * wavfmt, $/;"	f	file:
+free_name_desc	linuxrec.c	/^static void free_name_desc(char **name_or_desc) $/;"	f	file:
+free_rec_buffer	linuxrec.c	/^static void free_rec_buffer(struct recorder * rec)$/;"	f	file:
+g_buffersize	iat_record_sample.c	/^static unsigned int g_buffersize = BUFFER_SIZE;$/;"	v	file:
+g_result	iat_record_sample.c	/^static char *g_result = NULL;$/;"	v	file:
+get_default_input_dev	linuxrec.c	/^record_dev_id  get_default_input_dev()$/;"	f
+get_input_dev_num	linuxrec.c	/^int get_input_dev_num()$/;"	f
+get_pcm_device_cnt	linuxrec.c	/^static int get_pcm_device_cnt(snd_pcm_stream_t stream)$/;"	f	file:
+iat_cb	speech_recognizer.c	/^static void iat_cb(char *data, unsigned long len, void *user_para)$/;"	f	file:
+index	linuxrec.h	/^		int	index;$/;"	m	union:__anon3::__anon4
+is_record_stopped	linuxrec.c	/^int is_record_stopped(struct recorder *rec)$/;"	f
+is_stopped_internal	linuxrec.c	/^static int is_stopped_internal(struct recorder *rec)$/;"	f	file:
+list_input_device	linuxrec.c	/^record_dev_id * list_input_device() $/;"	f
+list_pcm	linuxrec.c	/^static int list_pcm(snd_pcm_stream_t stream, char**name_out, $/;"	f	file:
+main	iat_record_sample.c	/^int main(int argc, char* argv[])$/;"	f
+nAvgBytesPerSec	formats.h	/^	unsigned int      nAvgBytesPerSec;$/;"	m	struct:tWAVEFORMATEX
+nBlockAlign	formats.h	/^	unsigned short	  nBlockAlign;$/;"	m	struct:tWAVEFORMATEX
+nChannels	formats.h	/^	unsigned short    nChannels;$/;"	m	struct:tWAVEFORMATEX
+nSamplesPerSec	formats.h	/^	unsigned int      nSamplesPerSec;$/;"	m	struct:tWAVEFORMATEX
+name	linuxrec.h	/^		char *	name;$/;"	m	union:__anon3::__anon4
+notif	speech_recognizer.h	/^	struct speech_rec_notifier notif;$/;"	m	struct:speech_rec	typeref:struct:speech_rec::speech_rec_notifier
+on_data_ind	linuxrec.h	/^	void (*on_data_ind)(char *data, unsigned long len, void *user_para);$/;"	m	struct:recorder
+on_result	iat_record_sample.c	/^void on_result(const char *result, char is_last)$/;"	f
+on_result	speech_recognizer.h	/^	void (*on_result)(const char *result, char is_last);$/;"	m	struct:speech_rec_notifier
+on_speech_begin	iat_record_sample.c	/^void on_speech_begin()$/;"	f
+on_speech_begin	speech_recognizer.h	/^	void (*on_speech_begin)();$/;"	m	struct:speech_rec_notifier
+on_speech_end	iat_record_sample.c	/^void on_speech_end(int reason)$/;"	f
+on_speech_end	speech_recognizer.h	/^	void (*on_speech_end)(int reason);	\/* 0 if VAD.  others, error : see E_SR_xxx and msp_errors.h  *\/$/;"	m	struct:speech_rec_notifier
+open_recorder	linuxrec.c	/^int open_recorder(struct recorder * rec, record_dev_id dev, WAVEFORMATEX * fmt)$/;"	f
+open_recorder_internal	linuxrec.c	/^static int open_recorder_internal(struct recorder * rec, $/;"	f	file:
+pcm_read	linuxrec.c	/^static ssize_t pcm_read(struct recorder *rec, size_t rcount)$/;"	f	file:
+period_frames	linuxrec.h	/^	size_t period_frames;$/;"	m	struct:recorder
+period_time	linuxrec.h	/^	unsigned int period_time;$/;"	m	struct:recorder
+prepare_rec_buffer	linuxrec.c	/^static int prepare_rec_buffer(struct recorder * rec )$/;"	f	file:
+rec_stat	speech_recognizer.h	/^	int rec_stat;$/;"	m	struct:speech_rec
+rec_thread	linuxrec.h	/^	pthread_t rec_thread; $/;"	m	struct:recorder
+record_dev_id	linuxrec.h	/^}record_dev_id;$/;"	t	typeref:struct:__anon3
+record_thread_proc	linuxrec.c	/^static void * record_thread_proc(void * para)$/;"	f	file:
+recorder	linuxrec.h	/^struct recorder {$/;"	s
+recorder	speech_recognizer.h	/^	struct recorder *recorder;$/;"	m	struct:speech_rec	typeref:struct:speech_rec::recorder
+resv	linuxrec.h	/^		void *	resv;$/;"	m	union:__anon3::__anon4
+session_begin_params	speech_recognizer.h	/^	char * session_begin_params;$/;"	m	struct:speech_rec
+session_id	speech_recognizer.h	/^	const char * session_id;$/;"	m	struct:speech_rec
+set_hwparams	linuxrec.c	/^static int set_hwparams(struct recorder * rec,  const WAVEFORMATEX *wavfmt,$/;"	f	file:
+set_params	linuxrec.c	/^static int set_params(struct recorder *rec, WAVEFORMATEX *fmt,$/;"	f	file:
+set_swparams	linuxrec.c	/^static int set_swparams(struct recorder * rec)$/;"	f	file:
+show_result	iat_record_sample.c	/^static void show_result(char *string, char is_over)$/;"	f	file:
+show_xrun	linuxrec.c	/^static int show_xrun = 1;$/;"	v	file:
+skip_space	speech_recognizer.c	/^static char * skip_space(char *s)$/;"	f	file:
+speech_rec	speech_recognizer.h	/^struct speech_rec {$/;"	s
+speech_rec_notifier	speech_recognizer.h	/^struct speech_rec_notifier {$/;"	s
+sr_audsrc	speech_recognizer.h	/^enum sr_audsrc$/;"	g
+sr_dbg	speech_recognizer.c	22;"	d	file:
+sr_dbg	speech_recognizer.c	24;"	d	file:
+sr_init	speech_recognizer.c	/^int sr_init(struct speech_rec * sr, const char * session_begin_params, $/;"	f
+sr_init_ex	speech_recognizer.c	/^int sr_init_ex(struct speech_rec * sr, const char * session_begin_params, $/;"	f
+sr_start_listening	speech_recognizer.c	/^int sr_start_listening(struct speech_rec *sr)$/;"	f
+sr_stop_listening	speech_recognizer.c	/^int sr_stop_listening(struct speech_rec *sr)$/;"	f
+sr_uninit	speech_recognizer.c	/^void sr_uninit(struct speech_rec * sr)$/;"	f
+sr_write_audio_data	speech_recognizer.c	/^int sr_write_audio_data(struct speech_rec *sr, char *data, unsigned int len)$/;"	f
+start_record	linuxrec.c	/^int start_record(struct recorder * rec)$/;"	f
+start_record_internal	linuxrec.c	/^static int start_record_internal(snd_pcm_t *pcm)$/;"	f	file:
+state	linuxrec.h	/^	volatile int state;		\/* internal record state *\/$/;"	m	struct:recorder
+state	speech_recognizer.h	/^	volatile int state;$/;"	m	struct:speech_rec
+stop_record	linuxrec.c	/^int stop_record(struct recorder * rec)$/;"	f
+stop_record_internal	linuxrec.c	/^static int stop_record_internal(snd_pcm_t *pcm)$/;"	f	file:
+tWAVEFORMATEX	formats.h	/^typedef struct tWAVEFORMATEX {$/;"	s
+u	linuxrec.h	/^	}u;$/;"	m	struct:__anon3	typeref:union:__anon3::__anon4
+update_format_from_sessionparam	speech_recognizer.c	/^static int update_format_from_sessionparam(const char * session_para, WAVEFORMATEX *wavefmt)$/;"	f	file:
+upload_userwords	iat_record_sample.c	/^static int upload_userwords()$/;"	f	file:
+user_cb_para	linuxrec.h	/^	void * user_cb_para;$/;"	m	struct:recorder
+wBitsPerSample	formats.h	/^	unsigned short    wBitsPerSample;$/;"	m	struct:tWAVEFORMATEX
+wFormatTag	formats.h	/^	unsigned short	  wFormatTag;$/;"	m	struct:tWAVEFORMATEX
+wait_for_rec_stop	speech_recognizer.c	/^static void wait_for_rec_stop(struct recorder *rec, unsigned int timeout_ms)$/;"	f	file:
+wavein_hdl	linuxrec.h	/^	void * wavein_hdl;$/;"	m	struct:recorder
+xrun_recovery	linuxrec.c	/^static int xrun_recovery(snd_pcm_t *handle, int err)$/;"	f	file:
