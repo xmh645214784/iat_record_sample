@@ -26,6 +26,7 @@ CSRCFILES := $(shell find $(src) -name "*.c")
 OBJECTS := $(CSRCFILES:$(DIR_SRC)/%.c=$(DIR_BIN)/%.o)
 
 $(BIN_TARGET) : $(OBJECTS)
+	mkdir $(DIR_BIN) -p
 	echo $(CSRCFILES)
 	$(CROSS_COMPILE)gcc $(CFLAGS) $^ -o $@ $(LDFLAGS)
 
@@ -35,7 +36,8 @@ $(DIR_BIN)/%.o : $(DIR_SRC)/%.c
 clean:
 	@rm -f $(OBJECTS) $(BIN_TARGET)
 
-
-.PHONY:clean
+run:
+	sudo python3 run.py
+.PHONY:clean run
 
 #common makefile foot
